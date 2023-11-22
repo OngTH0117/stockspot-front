@@ -1,0 +1,131 @@
+.market-grid {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1600px; 
+   margin: 0 auto;
+  justify-content: space-around;
+}
+
+.market-item {
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+
+
+.market-item strong {
+  font-size: 18px;
+}
+
+.market-item p {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.gainers {
+  
+  max-width: 1620px; 
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.losers {
+  margin-top: 100px;
+  max-width: 1620px; 
+  margin: 0 auto;
+}
+
+.mostActive {
+  margin-top: 30px;
+  max-width: 1620px; 
+  margin: 0 auto;
+}
+
+.gainers-losers-list {
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.gainers-losers-item {
+  width: calc(25% - 20px); /* Four items per row with some margin */
+  margin-bottom: 20px;
+  padding: 10px;
+  
+  display: flex;
+  flex-direction: column;
+}
+
+.gainers-losers-item {
+  width: calc(25% - 20px);
+  margin-bottom: 20px;
+  padding: 10px;
+  border-left: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.gainers-losers-item:last-child {
+  border-right: none; /* Remove the right border from the last item */
+}
+
+
+.gainers-losers-item p {
+  margin: 5px 0;
+}
+
+.stock-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stock-name {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.stock-volume {
+  color: #777;
+  font-size: 20px;
+}
+
+.stock-details {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stock-price {
+  margin: 5px 0;
+}
+
+.stock-change {
+  display: flex;
+  align-items: center; 
+}
+
+.stock-change p {
+  margin: 0; /* Remove the margin from the paragraphs to reduce vertical space */
+}
+
+.change-icon img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+
+
+
+
+
+

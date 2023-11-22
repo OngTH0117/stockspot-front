@@ -1,0 +1,31 @@
+.blog-detail-container {
+    max-width: 800px; 
+    margin: 0 auto; 
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  .blog-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  .blog-date {
+    color: #666666;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .blog-content {
+    color: #444444;
+    line-height: 1.6;
+  }
+  
+  .blog-content img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }

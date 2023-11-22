@@ -1,0 +1,158 @@
+.screener-container {
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Styling for the header */
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the table */
+  .stock-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+  }
+  
+  .stock-table th,
+  .stock-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  /* Styling for table header cells */
+  .stock-table th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+  
+  /* Styling for table rows */
+  .stock-table tbody tr:nth-child(even) {
+    background-color: #f0f0f0;
+  }
+  
+  /* Styling for table cells */
+  .stock-table td {
+    white-space: nowrap;
+  }
+  
+  /* Styling for the footer */
+  .footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .column-selection-container {
+    max-width: 600px; 
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+   
+  }
+  
+  .column-selection-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .column-checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .column-checkbox label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .column-checkbox input[type="checkbox"] {
+    margin-right: 10px;
+  }
+
+  
+
+.weight-input {
+  margin-left: auto; /* Push the weight input to the right */
+}
+  
+.weight-error {
+  color: red;
+  margin-top: 10px;
+}
+
+.note {
+  margin-top: 10px;
+  color: #f39c12; 
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.button-4 {
+  appearance: none;
+  background-color: #FAFBFC;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #24292E;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  padding: 6px 16px;
+  position: relative;
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  word-wrap: break-word;
+}
+
+.button-4:hover {
+  background-color: #F3F4F6;
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+
+.button-4:disabled {
+  background-color: #FAFBFC;
+  border-color: rgba(27, 31, 35, 0.15);
+  color: #959DA5;
+  cursor: default;
+}
+
+.button-4:active {
+  background-color: #EDEFF2;
+  box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+  transition: none 0s;
+}
+
+.button-4:focus {
+  outline: 1px transparent;
+}
+
+.button-4:before {
+  display: none;
+}
+
+.button-4:-webkit-details-marker {
+  display: none;
+}
+
+  
+  
+  
